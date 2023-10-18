@@ -1,5 +1,5 @@
 # ESLINT Fixer GPT
-This README provides guidance on installing and using the ESLINT Fixer GPT tool.
+This README provides guidance on installing and using the ESLINT Fixer GPT tool. This tool is used to provide additional insight into how to fix errors caught by ESLint.
 
 ## Install Dependencies Globally
 To install the necessary dependencies globally, use the following command:
