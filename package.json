@@ -1,0 +1,43 @@
+{
+  "name": "eslint-fixer-gpt",
+  "version": "1.0.0",
+  "description": "Automatically fix ESLint errors with OpenAI's GPT models",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc --watch",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "bin": {
+    "eslint-fixer-gpt": "dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianovski/eslint-fixer-gpt.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-parse",
+    "eslint-fix",
+    "lint",
+    "gpt",
+    "openai"
+  ],
+  "author": "Alex Ianovski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianovski/eslint-fixer-gpt/issues"
+  },
+  "homepage": "https://github.com/ianovski/eslint-fixer-gpt#readme",
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "openai": "^4.11.1"
+  }
+}
