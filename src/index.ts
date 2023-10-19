@@ -26,4 +26,4 @@ const eslintFixerGPT = async() => {
   });
 }
 
-eslintFixerGPT();
+module.exports = eslintFixerGPT();

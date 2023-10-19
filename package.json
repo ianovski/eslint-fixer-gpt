@@ -1,7 +1,9 @@
 {
   "name": "eslint-fixer-gpt",
   "version": "1.0.0",
-  "description": "Automatically fix ESLint errors with OpenAI's GPT models",
+  "description": "Automatically provide in-depth suggestions to fix ESLint errors",
+  "author": "Alex Ianovski",
+  "private": false,
   "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -24,7 +26,6 @@
     "gpt",
     "openai"
   ],
-  "author": "Alex Ianovski",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ianovski/eslint-fixer-gpt/issues"
